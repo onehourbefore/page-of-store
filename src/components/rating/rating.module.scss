@@ -1,0 +1,24 @@
+.root {
+    display: inline-block;
+
+    & a {
+        display: inline-block;
+        margin-left: 5px;
+        font-size: 0.9rem;
+        color: #999999;
+    }
+
+    & i {
+        display: inline-block;
+        margin-right: 5px;
+        font-size: 0.7rem;
+    }
+    
+    &_redStar {
+        color: #F26A61;
+    }
+
+    &_grayStar {
+        color: #E9E9EB;
+    }
+}

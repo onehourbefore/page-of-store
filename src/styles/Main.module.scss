@@ -1,0 +1,33 @@
+.root {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	place-items: center;
+	max-width: 1800px;
+	min-height: 100vh;
+	margin: 0px auto;
+	
+}
+
+@media(max-width: 1800px) {
+	.root {
+		grid-template-columns: repeat(4, 1fr);
+	}
+}
+
+@media(max-width: 1450px) {
+	.root {
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+
+@media(max-width: 1080px) {
+	.root {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+@media(max-width: 720px) {
+	.root {
+		grid-template-columns: repeat(1, 1fr);
+	}
+}

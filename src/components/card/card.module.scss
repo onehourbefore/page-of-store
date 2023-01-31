@@ -1,0 +1,62 @@
+.root {
+    position: relative;
+    width: 330px;
+    height: 460px;
+    padding: 30px;
+    margin: 15px;
+    background: white;
+    box-shadow: 3px 3px 6px 6px rgba(150, 150, 150, 0.4);
+
+    &_picture {
+        padding: 30px;
+        padding-bottom: 10px;
+
+        & img {
+            display: block;
+            margin: 0px auto;
+        }
+    }
+
+    &_categoryAndRating {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+        
+        &_category {
+            font-size: 0.9rem;
+            color: #999999;
+        }
+    }
+
+    &_description {
+        margin-top: 10px;
+    }
+
+    &_price {
+        margin-top: 10px;
+
+        & span {
+            font-weight: 700;
+            font-size: 1.5rem;
+
+            &:last-child {
+                font-weight: 400;
+                font-size: 0.8rem;
+                color: #999999;
+            }
+        }
+    }
+
+    &_btns {
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &_priceAndBtns {
+        position: absolute;
+        bottom: 30px;
+        left: 30px;
+        width: 270px;
+    }
+}

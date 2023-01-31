@@ -1,0 +1,23 @@
+.root {
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    background: transparent;
+    cursor: pointer;
+    
+    & i {
+        font-size: 1.5rem;
+        color: #999999;
+    }
+}
+
+.isClicked {
+    border: 1px solid #FF0000;
+
+    & i {
+        color: #FF0000;
+    }
+}
